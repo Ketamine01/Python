@@ -11,7 +11,7 @@
 # 13579 >>> Сумма чисел числа 13579 равна 25(1 + 3 + 5 + 7 + 9)
 # Совет: Для этого используйте конкатенацию строк и срезы
 
-number = int(input('Введите число'))
+number = int(input('Введите число:'))
 text_number = str(number)
 text_sum = ''
 i = 0
@@ -30,4 +30,4 @@ while number > 0:
     nums_sum = nums_sum + number % 10
     number //= 10
     
-print(f'Сумма числа {text_number}равна {nums_sum}({text_sum})')
+print(f'Сумма числа {text_number} равна {nums_sum}({text_sum})')
