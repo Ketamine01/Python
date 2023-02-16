@@ -21,4 +21,3 @@ for i in list:
             nearest_num = i
             
 print(nearest_num)
-        
